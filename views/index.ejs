@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    <%= empresa %>
+  </title>
+  <link rel='stylesheet' href='/stylesheets/index.css' />
+</head>
+
+<body>
+  <div class="index">
+    <h2><a href="/">Inicio</a></h2>
+  </div>
+
+  <div class="logo">
+
+    <img style="width: 300px;" src="/images/FBI.png" alt="">
+
+  </div>
+
+  <div class="appendForm">
+    <div class="welcome">
+      <h1>Bem-Vindo ao <%= empresa %>
+      </h1>
+      <p>Entre na sua conta</p>
+    </div>
+
+    <form action="/user_profile" method="POST">
+      <div>
+        <input type="email" name="email" id="" placeholder="Digite seu email">
+        <input type="password" name="password" placeholder="Digite sua senha">
+      </div>
+      <p>
+        <%= erro %>
+      </p>
+      <div>
+        <br>
+        <button type="submit">Entrar</button>
+      </div>
+    </form>
+
+    <br>
+
+    <div>
+      <br>
+      <span>
+        <a href="/new_user">Cadastrar novo usuário</a>
+      </span>
+      |
+      <span>
+        <a href="/change_password">Esqueci minha senha</a>
+      </span>
+    </div>
+  </div>
+</body>
+
+</html>

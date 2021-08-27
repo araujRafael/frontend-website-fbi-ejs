@@ -1,0 +1,51 @@
+body {
+    padding: 0;
+    background-color: #065b7c;
+    color: aliceblue;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.logo{
+    width: 50%;
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin-left: 5%;
+    float: left;
+}
+
+.index a {
+    height: 10%;
+    color: #c0a065 !important;
+    text-decoration: none;
+}
+
+.appendForm a{
+    text-decoration: none;
+    color: #c0a065;
+}
+
+.appendForm{
+    width: 45%;
+    height: 90%;
+    float: right;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.inputs-newUse{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.inputs-newUse div {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputs-newUse input{    
+    width: 80%;
+    margin: 5px;
+}
